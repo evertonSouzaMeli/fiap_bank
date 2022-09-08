@@ -79,6 +79,7 @@ CREATE TABLE tb_conta
 
 ALTER TABLE tb_conta
     ADD CONSTRAINT FK_TB_CONTA_ON_CLIENTE FOREIGN KEY (cliente_id) REFERENCES tb_cliente (id);
+
 CREATE TABLE tb_cliente
 (
     id           BIGINT AUTO_INCREMENT NOT NULL,
